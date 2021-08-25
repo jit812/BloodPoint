@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginLeft="10dp"
+    android:padding="20dp"
+    app:cardElevation="5dp"
+    app:cardCornerRadius="10dp">
+    <RelativeLayout android:layout_height="match_parent"
+        android:layout_width="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/browser_actions_bg_grey"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:padding="5dp"
+            android:src="@drawable/requestlogo" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="vertical"
+            android:padding="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/targetBG"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="AB+"
+                    android:textColor="#0C0C0C"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" Blood Donor!"
+                    android:textColor="#0C0C0C" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Contact: " />
+
+                <TextView
+                    android:id="@+id/targetCN"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="+**********" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/reqstUser"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Requested by: Rahul" />
+
+            <TextView
+                android:id="@+id/posted"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Posted: 11:30 PM, 17/10/2018" />
+
+            <TextView
+                android:id="@+id/reqstLocation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="From: Bangalore,Karnataka" />
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,160 @@
+<resources>
+    <string name="title_activity_login">Sign in</string>
+    <string name="home">Home</string>
+    <string name="profile">Profile</string>
+    <string name="achiev">Achievements</string>
+    <string name="topdon">Top Donors</string>
+
+    <!-- Strings related to login -->
+    <string name="signup">Register</string>
+    <string name="prompt_email">Email</string>
+    <string name="register">Create an account</string>
+    <string name="forgotpass">Forgot password?</string>
+    <string name="prompt_password">Password</string>
+    <string name="prompt_confirm_password">Confirm password</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="reset">Reset</string>
+    <string name="displayName">Full Name</string>
+    <string name="mobile">Mobile No</string>
+    <string name="userAddress">Address</string>
+    <string name="nearH">Find nearest Hospitals</string>
+    <string name="fndBlood">Find Blood Donor</string>
+    <string name="lgout">Log out</string>
+    <string name="devinfo">About us</string>
+    <string name="bloodinfo">Blood Info</string>
+
+
+    <string-array name="division_list">
+        <item>Andhra Pradesh</item>
+        <item>Arunachal Pradesh</item>
+        <item>Assam</item>
+        <item>Bihar</item>
+        <item>Chhattisgarh</item>
+        <item>Goa</item>
+        <item>Gujarat</item>
+        <item>Haryana</item>
+        <item>Himachal Pradesh</item>
+        <item>Mizoram</item>
+        <item>Jharkhand</item>
+        <item>Karnataka</item>
+        <item>Kerala</item>
+        <item>Madhya Pradesh</item>
+        <item>Maharashtra</item>
+        <item>Manipur</item>
+        <item>Meghalaya</item>
+        <item>Nagaland</item>
+        <item>Odisha</item>
+        <item>Punjab</item>
+        <item>Rajasthan</item>
+        <item>Sikkim</item>
+        <item>Tamil Nadu</item>
+        <item>Tripura</item>
+        <item>Telangana</item>
+        <item>Uttar Pradesh</item>
+        <item>Uttarakhand</item>
+        <item>West Bengal</item>
+
+    </string-array>
+    <string-array name="division_list1">
+        <item>Mark ALL</item>
+        <item>Andhra Pradesh</item>
+        <item>Arunachal Pradesh</item>
+        <item>Assam</item>
+        <item>Bihar</item>
+        <item>Chhattisgarh</item>
+        <item>Goa</item>
+        <item>Gujarat</item>
+        <item>Haryana</item>
+        <item>Himachal Pradesh</item>
+        <item>Mizoram</item>
+        <item>Jharkhand</item>
+        <item>Karnataka</item>
+        <item>Kerala</item>
+        <item>Madhya Pradesh</item>
+        <item>Maharashtra</item>
+        <item>Manipur</item>
+        <item>Meghalaya</item>
+        <item>Nagaland</item>
+        <item>Odisha</item>
+        <item>Punjab</item>
+        <item>Rajasthan</item>
+        <item>Sikkim</item>
+        <item>Tamil Nadu</item>
+        <item>Tripura</item>
+        <item>Telangana</item>
+        <item>Uttar Pradesh</item>
+        <item>Uttarakhand</item>
+        <item>West Bengal</item>
+
+    </string-array>
+    <string-array name="locality_list">
+        <item>Around Railway Station</item>
+        <item>Begur Kopa Road</item>
+        <item>Doddaballapur Road</item>
+        <item>Electronic City</item>
+        <item>Hebbal</item>
+        <item>Hesaraghatta</item>
+        <item>Hoskote</item>
+        <item>Hosur</item>
+        <item>Hosur Road</item>
+        <item>Indiranagar</item>
+        <item>International Airport</item>
+        <item>Jayanagar</item>
+        <item>JP Nagar</item>
+        <item>Kaggalipura</item>
+        <item>KGA Golf Course</item>
+        <item>Koramangala</item>
+        <item>Krishnarajapuram</item>
+        <item>Kundana</item>
+        <item>Langford Town</item>
+        <item>Malleswaram</item>
+        <item>Marathahalli</item>
+        <item>MG Road</item>
+        <item>Minerva Circle</item>
+        <item>Mysore Road</item>
+        <item>Palace Grounds</item>
+        <item>Race Course Road</item>
+        <item>Rajajinagar</item>
+        <item>Seshadripuram</item>
+        <item>Shivaji Nagar</item>
+        <item>Tumkur Road</item>
+        <item>Ulsoor Lake</item>
+        <item>Vasanth Nagar</item>
+        <item>Whitefield</item>
+        <item>Yelahanka</item>
+        <item>Yelahanka Devanhalli Road</item>
+
+    </string-array>
+
+    <array name="gender">
+        <item>Male</item>
+        <item>Female</item>
+        <item>Other</item>
+    </array>
+
+    <array name="Blood_Group">
+        <item>A+</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>AB+</item>
+        <item>AB-</item>
+        <item>O+</item>
+        <item>O-</item>
+    </array>
+
+
+    <string name="moto">SOCIAL WORK BY REVA UNIVERSITY.</string>
+    <string name="eligibility_">Eligibility Requirements</string>
+    <string name="female_">If you are female, you must:\n Be healthy and feeling well\nBe at least 17 years old in most states\nBe at least 5 ft 5 inch\nWeigh at least 150 lbs.</string>
+    <string name="male_">If you are male, you must:\nBe healthy and feeling well\nBe at least 17 years old in most states\nBe at least 5 ft 1 inch \nWeigh at least 130 lbs.\n</string>
+    <string name="info_">Giving blood saves lives. The blood you give is a lifeline in an emergency and for people who need long-term treatments. Many people would not be alive today if donors had not generously given their blood. \n\nWhy we need you to give blood?\n\n We need over 6000 blood donations every day to treat patients in need for people to give blood.\n\nEach year we need approximately 200000 new donors, as some donors can no longer give blood.Most people between ages of 17-65 are able to give blood. Around half our current donors are over 45.That is why we need more young people to start giving blood.</string>
+
+
+
+</resources>
