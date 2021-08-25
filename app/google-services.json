@@ -7,7 +7,7 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:602360774948:android:fe82a43ba41106ba51f3b1",
+        "mobilesdk_app_id": "---",
         "android_client_info": {
           "package_name": "com.android.blooddonor.bloodbank"
         }
@@ -20,7 +20,7 @@
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyAO3cKv-273OhBm-81JtSYn008n3FJ5Xjg"
+          "current_key": "API KEY"
         }
       ],
       "services": {
